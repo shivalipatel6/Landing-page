@@ -1,10 +1,153 @@
-.blue-background{
-    background-color: darkblue;
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.quote-block{
-    background-color: grey;
+.header-logo{
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+    padding:20px;
 }
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+.blue-background{
+    background: darkblue;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding-right: 60px;
+    padding-left:60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding:20px;
+
+  }
+.text-title{
+    color:white;
+    font-size: 48px;
+    font-weight: 700;
+    margin:0;
+}
+p{
+    color:white;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    
+    padding:20px;
+  }
+
+  .card .content {
+    flex: 1 1 auto;
+  }
+  img{
+    max-width: 100%;
+  }
+
+  button{
+    background-color: rgba(104, 85, 224, 1);
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    padding: 10px, 0;
+  }
+
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 4px solid blue;}
+
+h2{
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.text{
+    text-align:center;
+    max-width: 200px;
+}
+
+
+.quote-block{
+    background:gray;
+    display: flex;
+    flex-direction: column;
+    padding-left:300px;
+    padding-right:300px;
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.quoter{
+    display:flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
 
 .call-to-action-block{
     background-color: lightblue;
@@ -13,4 +156,8 @@
 
 .footer{
     background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+
 }
