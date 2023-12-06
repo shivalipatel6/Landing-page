@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display:flex;
+    flex-direction: column;
 }
 
 .header-logo{
@@ -27,7 +29,8 @@ a {
 .blue-background{
     background: darkblue;
     display:flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction:column ;
     margin: 0;
     padding-right: 60px;
     padding-left:60px;
@@ -84,8 +87,16 @@ p{
     font-weight: 600;
     width: 100px;
     height: 30px;
-    padding: 10px, 0;
+    padding: 12px, 0;
   }
+.block2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+    padding-bottom: 100px;
+}
 
 .pic{
     width: 200px;
@@ -146,12 +157,52 @@ h2{
     font-weight: 700;
 }
 
-
+.block3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
 
 
 .call-to-action-block{
     background-color: lightblue;
+    border: 0;
+    border-radius: 4px;
+    width: 900px;
+    flex:auto;
+    display:flex;
+    justify-content: center;
 
+}
+
+.action{
+    font-size: 20px;
+    font-weight: 700; 
+}
+.words{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-sign-up{
+    display:flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+.small-button{
+    margin-top: 1%;
+	width: 90%;
+}
+.sign-up-button{
+    display:flex;
+    align-self: center;
+    width: 120px;
 }
 
 .footer{
@@ -159,5 +210,6 @@ h2{
     color: white;
     display: flex;
     justify-content: center;
+    padding: 30px;
 
 }
